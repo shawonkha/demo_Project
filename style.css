@@ -218,6 +218,11 @@ main{
 .news-card-item img{
 	width:100%;
 }
+.news-card-item img:hover{
+	cursor:pointer;
+	filter:saturate(0);
+	transition:0.3s all;
+}
 .news-card-content{
 	padding:15px;
 }
